@@ -1,0 +1,224 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    
+    margin: 8px;
+    padding: 8px;
+    font-family: "Roboto Slab", serif;
+    background-color: #f0f2f5;
+}
+.header{
+    background-color: #6f4e37; padding: 20px 0; text-align: center; color: white; box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+.navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.navbar li {
+    list-style: none;
+    margin: 0 15px;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: #6f4e37;
+    font-weight: bold;
+    font-size: 16px;
+    transition: color 0.3s ease;
+}
+
+.navbar a:hover {
+    color: #333;
+}
+
+.products {
+    display: grid;
+    
+    gap: 20px;
+    padding: 20px;
+    width: 100%;
+}
+
+/* Style for the product cards */
+.card-product {
+    font-family: "Roboto Slab", serif;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding:8px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: all 0.2s ease-in-out;
+    width: 100%;
+    max-height: max-content;
+}
+
+.card-product:hover {
+    transform: scale(1.02);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+/* Style for the product image */
+.card-product .img img {
+    width: 100%;
+    max-width: 150px;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+/* Style for the product information */
+.card-product .info {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    max-height: max-content;
+}
+.info .cat::before{
+content: "Category:";
+font-size: larger;
+font-weight: 700;
+margin-right: 8px;
+}
+.info .cat{
+    font-size: large;
+    color: rgb(117, 75, 27);
+}
+.info .nom::before{
+    font-size: larger;
+font-weight: 700;
+    content:"Nom:";
+    margin-right: 8px;
+}
+.info .nom{
+    font-size: larger;
+    color: rgb(103, 67, 23);
+}
+.info .prix::before{
+    font-size: larger;
+    content: "Prix:";
+    font-weight: 700;
+    margin-right: 8px;
+}
+.info .prix::after{
+    content: "DH";
+    margin-left: 8px;
+}
+.info .prix{
+    color: rgb(103, 67, 23);
+}
+.card-product .info p {
+    margin: 5px 0;
+    color: #333;
+}
+.nb_qt::before{
+    content: "la quantité:";
+    font-weight: 700;
+    margin-right: 8px;
+    font-size: larger;
+}
+.card-product .qte {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 130px;
+    width:40%;
+}
+.qte .total::before{
+content: "Total:";
+font-weight: 700;
+    margin-right: 8px;
+    font-size: larger;
+}
+
+.card-product .qte input[type='range'] {
+    width: 100%;
+    cursor: pointer;
+}
+
+/* Style for the delete button */
+.card-product .supprimer {
+    background-color: #e74c3c;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background-color 0.2s;
+}
+
+.card-product .supprimer i {
+    margin-right: 5px;
+}
+
+.card-product .supprimer:hover {
+    background-color: #c0392b;
+}
+table{
+    width:60%;
+    margin: 0 auto;
+    font-family: "Roboto Slab", serif;
+    font-size: xx-large;
+}
+td{
+    text-transform: capitalize;
+    border-bottom: 1px solid #333;
+    text-align: center;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+    .products{
+        display: flex;
+        flex-wrap: wrap;
+        flex-grow: 0;
+        flex-shrink: 1;
+        justify-content: space-around;
+    }
+    .card-product {
+        width:46%;
+        flex-direction: column;
+        max-height: max-content;
+    }
+    table{
+        width: 100%;
+    }
+
+}
+
+    
+
+
+#total-tous::after{
+    margin-left: 15px;
+content: "DH";
+font-size:26px;
+font-family: "Roboto Slab", serif;
+}
+#btn-acheter{
+    background-color: #5cb85c;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+#btn-acheter:hover{
+    background-color: #4cae4c;
+}

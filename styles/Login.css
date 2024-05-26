@@ -1,0 +1,126 @@
+body {
+    background-image: url("../images/wallpaperflare.com_wallpaper (7).jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Roboto Slab", serif;
+    width: 100vw;
+    height: 100vh;
+  }
+
+  .log_in-box {
+    border: transparent;
+    border-radius: 10px;
+    backdrop-filter: blur(10px);
+    width: 60%;
+    height: max-content;
+    padding: 12px;
+    box-shadow: 0px 0px 15px 5px rgba(0, 0, 0, 0.8);
+    color:white;
+  }
+
+  h1 {
+    font-size: 70px;
+    text-align: center;
+    margin-bottom: 30px;
+
+  }
+
+  form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-bottom: 20px;
+    justify-content: center;
+    align-items: center;
+    height: max-content;
+    flex-grow: 1;
+    flex-shrink: 1;
+  }
+
+  form div {
+    width: 100%;
+    font-size: 30px;
+    font-weight: bold;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+  }
+
+  label {
+    display: flex;
+    margin-bottom: 5px;
+    width:350px;
+    align-items: center;
+    text-shadow: 0 0 7px black;
+    flex-wrap: wrap;
+    flex-grow: 1;
+    flex-shrink: 1;
+  }
+  input[type="text"],
+  input[type="password"] {
+    font-family: "Roboto Slab", serif;
+    font-size: 25px;
+    width: 60%;
+    padding: 6px;
+    margin-bottom: 10px;
+    outline:none;
+    border: 1px solid black;
+    background-color:#ffffff69;
+    border-radius: 4px;
+    flex-wrap: wrap;
+    flex-grow: 1;
+    flex-shrink: 1;
+  }
+
+  input[type="submit"] {
+    font-family: "Roboto Slab", serif;
+    background-color: #ae783a;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 22px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+
+  input[type="submit"]:hover {
+    transform: translateY(-8px);
+    background-color: #784f20;
+  }
+
+  a {
+    font-size: 25px;
+    display: block;
+    text-align: center;
+    margin-top: 10px;
+    color: #ffffff;
+    text-decoration: none;
+  }
+
+  a:hover {
+    text-decoration: underline;
+  }
+  @media (max-width:500px) {
+    .log_in-box{
+      width:80vw;
+      height: 70vh;
+    }
+    form div {
+    display: flex;
+    flex-direction: column;
+      width: 100%;
+  }
+  label{
+    font-size:16px;
+    width:100%;
+  }
+  input{
+    width: 100%;
+  }
+  }

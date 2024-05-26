@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/Finachat.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <header class="header">
+        <div class="logo">
+            <img src="./images/coffee-shop.png" alt="Coffee Shop Logo" class="logo-img" style="height: 60px;">
+        </div>
+        <h1 class="market-name">Café de Qualité</h1>
+        <nav class="navbar">
+            <li><a href="./index.html">Home</a></li>
+            <li><a href="">log out</a></li>
+            <li><a href="">enregistrer</a></li>
+        </nav>
+    </header>
+    <div class="form-end-purchase">
+        <h2>Finaliser votre achat</h2>
+        <form>
+            <label for="name">Nom complet</label>
+            <input type="text" id="name" name="name" required>
+            <p class="ername" id="error"></p>
+
+            <label for="regions">Région</label>
+            <select id="regions" name="regions" class="regions">
+
+            </select>
+            <p class="erreg" id="error"></p>
+
+            <select name="" id="villes">
+
+            </select>
+            <p class="ervile" id="error"></p>
+
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required>
+            <p class="eremail" id="error"></p>
+
+            <label for="payment-method">Méthode de paiement</label>
+            <select id="payment-method" name="payment-method">
+                <option value="credit-card">Carte de crédit</option>
+                <option value="paypal">PayPal</option>
+                <option value="check">Chèque</option>
+            </select>
+            <p class="erpaymeth" id="error"></p>
+            <button type="submit" id="payer">Payer maintenant</button>
+        </form>
+    </div>
+    <script src="./scripts/jquery.js"></script>
+    <script src="./scripts/scriptFinach.js">
+    </script>
+</body>
+
+</html>

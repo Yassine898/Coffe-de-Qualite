@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+    <script src="	https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"
+        integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy"
+        crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="styles/firstpage.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="loader">
+        <img src="images/wallpaperflare.com_wallpaper (6).jpg" alt="Loading...">
+    </div>
+    <div class="container-fluid" style="display: none;">
+        <div class="header">
+            <div class="logo">
+                <img src="images/coffee-shop.png" alt="">
+                <p>coffe de qualite</p>
+            </div>
+            <ul class="navbar">
+                <li><a href="">qui nous somme</a></li>
+                <li><a href="register.html">sign in</a></li>
+                <li><a href="login.html">sign up</a></li>
+            </ul>
+        </div>
+        <div class="main">
+            <div class="part-left">
+                <h1>Bienvenue sur Coffee de Qualité</h1>
+                <div>
+                    <p>Chez <strong>Coffee de Qualité</strong>, nous sommes passionnés par l'art du café et nous nous
+                        engageons à vous offrir les meilleurs paquets de café du monde entier. Notre mission est de
+                        transformer chaque tasse de café en un moment d'exception, grâce à une sélection rigoureuse de
+                        grains et à un savoir-faire inégalé.</p>
+                    <p>Rejoignez notre communauté de passionnés de café et découvrez une expérience café incomparable
+                        avec <strong>Coffee de Qualité</strong>. Que ce soit pour commencer votre journée du bon pied,
+                        pour une pause détente ou pour un moment de convivialité, laissez-nous vous accompagner avec nos
+                        cafés d'exception.</p>
+                </div>
+                <a href="register.html" class="btn-register">S'enregistrer</a>
+            </div>
+        </div>
+    </div>
+    <script src="./scripts/jquery.js"></script>
+    <script>
+        $(document).ready(function () {
+            setTimeout(function () {
+                $('.loader').fadeOut('slow', function () {
+                    $('.container-fluid').fadeIn('slow');
+                });
+            }, 4000);
+        });
+
+    </script>
+</body>
+
+</html>

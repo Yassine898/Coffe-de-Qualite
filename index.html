@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Café de Qualité</title>
+    <link rel="icon" href="/images/coffee-shop.png">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/77ff180d14.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./styles/style.css">
+
+</head>
+
+<body>
+    <header class="header">
+        <div class="logo">
+            <img src="./images/coffee-shop.png" alt="Coffee Shop Logo" class="logo-img" style="height: 60px;">
+        </div>
+        <h1 class="market-name">Café de Qualité</h1>
+        <nav class="navbar">
+            <li><a href="./index.html">Home</a></li>
+            <li><a id="logoutButton"><i class="fa-solid fa-right-to-bracket"></i></a></li>
+            <li class="panier"><a href=""><i class="fa-solid fa-cart-shopping"></i></a>
+                <p class="qnt"></p>
+            </li>
+            <li><button id="search1"><i class="fa-solid fa-magnifying-glass"></i></button></li>
+        </nav>
+    </header>
+    <main class="main">
+        
+        <div class="filter-section">
+            <select name="" id="categorys">
+                <option value="All">Category</option>
+            </select>
+            <label for="">Le prix minimum</label>
+                <input type="number" placeholder="0" min="0" max="500" id="min-price" value="0">
+                <label for="">Le prix maximum</label>
+                <input type="number" placeholder="1000" min="0" max="500" id="max-price" value="500">
+                <button id="filter-button">Filter</button>
+        </div>
+        <div class="products-section">
+            <div class="welcome">
+                <p>Bounjour </p>
+                <p class="user-name"></p>
+            </div>
+            <section id="popular-coffees">
+                <!-- Coffee cards will be dynamically generated here -->
+            </section>
+        </div>
+
+
+    </main>
+    <div id="search" style="display: none;">
+        <div class="search-box">
+            <div class="header-search">
+                <p>Search</p>
+                <i class="fa-solid fa-x icon-close"></i>
+            </div>
+            <div class="input-search">
+                <div class="search">
+                    <input type="text" placeholder="Search our store" id="input-search">
+                    <i class="fa-solid fa-magnifying-glass icon-search"></i>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-section">
+                <h4>À propos de nous</h4>
+                <p>Nous fournissons le meilleur café provenant des meilleures régions du monde. Notre mission est de vous offrir la tasse de café parfaite.</p>
+            </div>
+            <div class="footer-section">
+                <h4>Liens rapides</h4>
+                <ul>
+                    <li><a href="index.html">Accueil</a></li>
+                    <li><a href="panier.html">Panier</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h4>Contactez-nous</h4>
+                <p>Email : support@coffeeshop.com</p>
+                <p>Téléphone : +123 456 7890</p>
+                <p>Adresse : 123 Rue du Café, Ville du Café, CO</p>
+            </div>
+            <div class="footer-section">
+                <h4>Suivez-nous</h4>
+                <div class="social-media">
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 CoffeeShop. Tous droits réservés.</p>
+        </div>
+    </footer>
+       
+
+    <script src="./scripts/jquery.js"></script>
+    <script src="./scripts/script.js">
+
+    </script>
+
+</body>
+
+</html>

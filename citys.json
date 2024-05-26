@@ -1,0 +1,53 @@
+ [
+        {
+          "name": "Casablanca-Settat",
+          "cities": ["Casablanca", "Settat", "El Jadida", "Mohammedia", "Berrechid", "Sidi Bennour"]
+        },
+        {
+          "name": "Rabat-Salé-Kénitra",
+          "cities": ["Rabat", "Salé", "Kénitra", "Témara", "Skhirat"]
+        },
+        {
+          "name": "Marrakech-Safi",
+          "cities": ["Marrakech", "Safi", "Essaouira", "Youssoufia", "Chichaoua"]
+        },
+        {
+          "name": "Fès-Meknès",
+          "cities": ["Fès", "Meknès", "Ifrane", "Sefrou", "Azrou", "Taounate"]
+        },
+        {
+          "name": "Tanger-Tétouan-Al Hoceïma",
+          "cities": ["Tanger", "Tétouan", "Al Hoceïma", "Larache", "Chefchaouen"]
+        },
+        {
+          "name": "Souss-Massa",
+          "cities": ["Agadir", "Inezgane", "Tiznit", "Taroudant"]
+        },
+        {
+          "name": "Oriental",
+          "cities": ["Oujda", "Nador", "Berkane", "Taourirt", "Jerada"]
+        },
+        {
+          "name": "Béni Mellal-Khénifra",
+          "cities": ["Béni Mellal", "Khénifra", "Khouribga", "Fquih Ben Salah"]
+        },
+        {
+          "name": "Drâa-Tafilalet",
+          "cities": ["Errachidia", "Ouarzazate", "Zagora", "Tinghir"]
+        },
+        {
+          "name": "Guelmim-Oued Noun",
+          "cities": ["Guelmim", "Tan-Tan", "Sidi Ifni"]
+        },
+        {
+          "name": "Laâyoune-Sakia El Hamra",
+          "cities": ["Laâyoune", "Boujdour", "Tarfaya"]
+        },
+        {
+          "name": "Dakhla-Oued Ed-Dahab",
+          "cities": ["Dakhla", "Aousserd"]
+        }
+      ]
+    
+
+  

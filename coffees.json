@@ -1,0 +1,330 @@
+[
+    {
+        "name": "Arabica Blend",
+        "category": "Arabica",
+        "price_before": 100,
+        "promotion": 0.2,
+        "quantite_de_produit": 14,
+        "image_url": "images/30a20d134536047.61dc9aeb15728.jpg"
+    },
+    {
+        "name": "Ethiopian Yirgacheffe",
+        "category": "Ethiopian",
+        "price_before": 150,
+        "promotion": 0.15,
+        "quantite_de_produit": 15,
+        "image_url": "images/proT2.42fb4d4ecb906d7f6ada.jpg"
+    },
+    {
+        "name": "Colombian Supremo",
+        "category": "Colombian",
+        "price_before": 200,
+        "promotion": 0.25,
+        "quantite_de_produit": 20,
+        "image_url": "images/85cxpnsqv5xjvre4d952xfmpez_image.png"
+    },
+    {
+        "name": "Brazilian Santos",
+        "category": "Brazilian",
+        "price_before": 170,
+        "promotion": 0.1,
+        "quantite_de_produit": 17,
+        "image_url": "images/88ff6c9d69ddc4fe4994076ea419c95d.png"
+    },
+    {
+        "name": "Guatemalan Antigua",
+        "category": "Guatemalan",
+        "price_before": 100,
+        "promotion": 0.2,
+        "quantite_de_produit": 25,
+        "image_url": "images/192e54140263493.623e163edfd62.png"
+    },
+    {
+        "name": "Costa Rican Tarrazu",
+        "category": "Costa Rican",
+        "price_before": 150,
+        "promotion": 0.3,
+        "quantite_de_produit": 14,
+        "image_url": "images/0001689_cafe-tero-en-grano-espresso-cafe-tero.png"
+    },
+    {
+        "name": "Kenyan AA",
+        "category": "Kenyan",
+        "price_before": 200,
+        "promotion": 0.15,
+        "quantite_de_produit": 15,
+        "image_url": "images/9289e82280910.560dde884ba01.jpg"
+    },
+    {
+        "name": "Hawaiian Kona",
+        "category": "Hawaiian",
+        "price_before": 170,
+        "promotion": 0.2,
+        "quantite_de_produit": 20,
+        "image_url": "images/78033f76378009.5c67dcca1f5e1.jpg"
+    },
+    {
+        "name": "Jamaican Blue Mountain",
+        "category": "Jamaican",
+        "price_before": 100,
+        "promotion": 0.25,
+        "quantite_de_produit": 17,
+        "image_url": "images/a80da73a-41d2-4293-a6c2-6e8d6b2c75e3.png"
+    },
+    {
+        "name": "Sumatran Mandheling",
+        "category": "Sumatran",
+        "price_before": 150,
+        "promotion": 0.15,
+        "quantite_de_produit": 25,
+        "image_url": "images/b83f92128179733.61516ed2a90d7.jpg"
+    },
+    {
+        "name": "Panamanian Boquete",
+        "category": "Panamanian",
+        "price_before": 200,
+        "promotion": 0.2,
+        "quantite_de_produit": 14,
+        "image_url": "images/Black_Owl_bag_1_670.jpg"
+    },
+    {
+        "name": "Tanzanian Peaberry",
+        "category": "Tanzanian",
+        "price_before": 170,
+        "promotion": 0.1,
+        "quantite_de_produit": 15,
+        "image_url": "images/caffeinebliss-1.jpg"
+    },
+    {
+        "name": "Vietnamese Coffee",
+        "category": "Vietnamese",
+        "price_before": 100,
+        "promotion": 0.2,
+        "quantite_de_produit": 20,
+        "image_url": "images/custom-coffee-packaging-design-2.jpg"
+    },
+    {
+        "name": "Indonesian Java",
+        "category": "Indonesian",
+        "price_before": 150,
+        "promotion": 0.15,
+        "quantite_de_produit": 17,
+        "image_url": "images/new-johnny-gurkha-blend1.jpg"
+    },
+    {
+        "name": "Mexican Altura",
+        "category": "Mexican",
+        "price_before": 200,
+        "promotion": 0.25,
+        "quantite_de_produit": 25,
+        "image_url": "images/proT2.42fb4d4ecb906d7f6ada.jpg"
+    },
+        {
+            "name": "Peruvian Coffee",
+            "category": "Peruvian",
+            "price_before": 170,
+            "promotion": 0.1,
+            "quantite_de_produit": 14,
+            "image_url": "images/30a20d134536047.61dc9aeb15728.jpg"
+        },
+        {
+            "name": "Nicaraguan Coffee",
+            "category": "Nicaraguan",
+            "price_before": 100,
+            "promotion": 0.2,
+            "quantite_de_produit": 15,
+            "image_url": "images/proT2.42fb4d4ecb906d7f6ada.jpg"
+        },
+        {
+            "name": "Rwandan Coffee",
+            "category": "Rwandan",
+            "price_before": 150,
+            "promotion": 0.15,
+            "quantite_de_produit": 20,
+            "image_url": "images/85cxpnsqv5xjvre4d952xfmpez_image.png"
+        },
+        {
+            "name": "Salvadoran Coffee",
+            "category": "Salvadoran",
+            "price_before": 200,
+            "promotion": 0.25,
+            "quantite_de_produit": 17,
+            "image_url": "images/88ff6c9d69ddc4fe4994076ea419c95d.png"
+        },
+        {
+            "name": "Venezuelan Coffee",
+            "category": "Venezuelan",
+            "price_before": 170,
+            "promotion": 0.1,
+            "quantite_de_produit": 25,
+            "image_url": "images/192e54140263493.623e163edfd62.png"
+        },
+        {
+            "name": "Cuban Coffee",
+            "category": "Cuban",
+            "price_before": 100,
+            "promotion": 0.2,
+            "quantite_de_produit": 14,
+            "image_url": "images/0001689_cafe-tero-en-grano-espresso-cafe-tero.png"
+        },
+        {
+            "name": "Bolivian Coffee",
+            "category": "Bolivian",
+            "price_before": 150,
+            "promotion": 0.15,
+            "quantite_de_produit": 15,
+            "image_url": "images/9289e82280910.560dde884ba01.jpg"
+        },
+        {
+            "name": "Ecuadorian Coffee",
+            "category": "Ecuadorian",
+            "price_before": 200,
+            "promotion": 0.25,
+            "quantite_de_produit": 20,
+            "image_url": "images/78033f76378009.5c67dcca1f5e1.jpg"
+        },
+        {
+            "name": "Honduran Coffee",
+            "category": "Honduran",
+            "price_before": 170,
+            "promotion": 0.1,
+            "quantite_de_produit": 17,
+            "image_url": "images/a80da73a-41d2-4293-a6c2-6e8d6b2c75e3.png"
+        },
+        {
+            "name": "Thai Coffee",
+            "category": "Thai",
+            "price_before": 100,
+            "promotion": 0.2,
+            "quantite_de_produit": 25,
+            "image_url": "images/b83f92128179733.61516ed2a90d7.jpg"
+        },
+        {
+            "name": "Laotian Coffee",
+            "category": "Laotian",
+            "price_before": 150,
+            "promotion": 0.15,
+            "quantite_de_produit": 14,
+            "image_url": "images/Black_Owl_bag_1_670.jpg"
+        },
+        {
+            "name": "Philippine Coffee",
+            "category": "Philippine",
+            "price_before": 200,
+            "promotion": 0.25,
+            "quantite_de_produit": 15,
+            "image_url": "images/caffeinebliss-1.jpg"
+        },
+        {
+            "name": "Malaysian Coffee",
+            "category": "Malaysian",
+            "price_before": 170,
+            "promotion": 0.1,
+            "quantite_de_produit": 20,
+            "image_url": "images/custom-coffee-packaging-design-2.jpg"
+        },
+        {
+            "name": "Indian Coffee",
+            "category": "Indian",
+            "price_before": 100,
+            "promotion": 0.2,
+            "quantite_de_produit": 17,
+            "image_url": "images/new-johnny-gurkha-blend1.jpg"
+        },
+        {
+            "name": "Sri Lankan Coffee",
+            "category": "Sri Lankan",
+            "price_before": 150,
+            "promotion": 0.15,
+            "quantite_de_produit": 25,
+            "image_url": "images/proT2.42fb4d4ecb906d7f6ada.jpg"
+        },
+        {
+            "name": "Bangladeshi Coffee",
+            "category": "Bangladeshi",
+            "price_before": 200,
+            "promotion": 0.25,
+            "quantite_de_produit": 14,
+            "image_url": "images/30a20d134536047.61dc9aeb15728.jpg"
+        },
+        {
+            "name": "Nepalese Coffee",
+            "category": "Nepalese",
+            "price_before": 170,
+            "promotion": 0.1,
+            "quantite_de_produit": 15,
+            "image_url": "images/proT2.42fb4d4ecb906d7f6ada.jpg"
+        },
+        {
+            "name": "Afghan Coffee",
+            "category": "Afghan",
+            "price_before": 100,
+            "promotion": 0.2,
+            "quantite_de_produit": 20,
+            "image_url": "images/85cxpnsqv5xjvre4d952xfmpez_image.png"
+        },
+        {
+            "name": "Pakistani Coffee",
+            "category": "Pakistani",
+            "price_before": 150,
+            "promotion": 0.15,
+            "quantite_de_produit": 17,
+            "image_url": "images/88ff6c9d69ddc4fe4994076ea419c95d.png"
+        },
+        {
+            "name": "Iranian Coffee",
+            "category": "Iranian",
+            "price_before": 200,
+            "promotion": 0.25,
+            "quantite_de_produit": 25,
+            "image_url": "images/192e54140263493.623e163edfd62.png"
+        },
+        {
+            "name": "Iraqi Coffee",
+            "category": "Iraqi",
+            "price_before": 170,
+            "promotion": 0.1,
+            "quantite_de_produit": 14,
+            "image_url": "images/0001689_cafe-tero-en-grano-espresso-cafe-tero.png"
+        },
+        {
+            "name": "Syrian Coffee",
+            "category": "Syrian",
+            "price_before": 100,
+            "promotion": 0.2,
+            "quantite_de_produit": 15,
+            "image_url": "images/9289e82280910.560dde884ba01.jpg"
+        },
+        {
+            "name": "Lebanese Coffee",
+            "category": "Lebanese",
+            "price_before": 150,
+            "promotion": 0.15,
+            "quantite_de_produit": 20,
+            "image_url": "images/78033f76378009.5c67dcca1f5e1.jpg"
+        },
+        {
+            "name": "Jordanian Coffee",
+            "category": "Jordanian",
+            "price_before": 200,
+            "promotion": 0.25,
+            "quantite_de_produit": 17,
+            "image_url": "images/a80da73a-41d2-4293-a6c2-6e8d6b2c75e3.png"
+        },
+        {
+            "name": "Palestinian Coffee",
+            "category": "Palestinian",
+            "price_before": 170,
+            "promotion": 0.1,
+            "quantite_de_produit": 25,
+            "image_url": "images/b83f92128179733.61516ed2a90d7.jpg"
+        },
+        {
+            "name": "Turkish Coffee",
+            "category": "Turkish",
+            "price_before": 100,
+            "promotion": 0.2,
+            "quantite_de_produit": 14,
+            "image_url": "images/Black_Owl_bag_1_670.jpg"
+    }
+]
