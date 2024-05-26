@@ -24,5 +24,5 @@ class User {
     console.log(users);
     users.push(user);
     localStorage.setItem('users', JSON.stringify(users));
-      window.location.href = "../login.html";
+      window.location.href = "login.html";
   });
